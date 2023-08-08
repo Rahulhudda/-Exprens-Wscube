@@ -1,0 +1,316 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	list-style: none;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background: url(../images/waves_.jpg);
+	background-size: cover;
+}
+
+@media only screen and (min:200px) and (max:500px) {}
+
+@media only screen and (min:500px) and (max:800px) {}
+
+@media only screen and (min:800px) and (max:1100px) {}
+
+@media only screen and (min:1100px) and (max:2000px) {}
+
+main {
+	width: 1000px;
+	/*height: 5000px;*/
+	/*border:1px solid red;*/
+	margin: auto;
+
+}
+
+.section1 {
+	width: 1000px;
+	height: 650px;
+	background: url(../images/headerbg.jpg) fixed;
+	background-size: cover;
+	border-bottom: 10px solid #0083ce;
+
+}
+
+.section1-1 {
+	width: 20px;
+	height: 20px;
+	background-color: lightgreen;
+
+	border-radius: 50%;
+	position: absolute;
+	right: 16%;
+	top: 1%;
+
+}
+
+.section1-1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.overlay1 {
+	width: 1000px;
+	height: 650px;
+	background: rgba(0, 0, 0, 0.2);
+
+}
+
+.overlay2 {
+	width: 1000px;
+	height: 650px;
+	background: url(../images/gridtile.png);
+}
+
+.logo {
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+
+.contect {
+	width: 390px;
+	height: 140px;
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: 1px solid #27e0ff;
+	border-bottom: 1px solid #27e0ff;
+}
+
+.menu {
+	width: 650px;
+	text-align: center;
+	margin: auto;
+	padding-top: 170px;
+
+
+}
+
+.menu ul li {
+	float: left;
+	padding: 10px 30px;
+	border-right: 2px solid white;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 40px;
+
+}
+
+.menu ul li:nth-child(5) {
+	border-right: 0px solid white;
+
+}
+
+.menu ul li a {
+	color: white;
+}
+
+/*section2 start*/
+.section2 {
+	width: 1000px;
+	height: 830px;
+	background-color: white;
+}
+
+.top {
+	width: 1000px;
+	height: 320px;
+	background: url(../images/3.jpg) fixed;
+	background-size: cover;
+}
+
+.overlaytop {
+	width: 1000px;
+	height: 220px;
+	background: rgba(0, 0, 0, 0.5);
+	margin: auto;
+	padding-top: 100px;
+
+
+}
+
+.overlaytop span {
+	border: 7px solid white;
+	color: white;
+	padding: 7px;
+	margin: auto;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 23px;
+	display: table;
+}
+
+.bottom {
+	width: 1000px;
+	height: 610px;
+	background-color: white;
+}
+
+.bottom p {
+	text-align: center;
+	padding: 10px;
+	padding-top: 40px;
+	line-height: 2;
+}
+
+.bottom h4 {
+	text-align: center;
+	margin-top: 30px;
+
+
+}
+
+.bottom div {
+	text-align: center;
+	line-height: 3;
+}
+
+.icon {
+	margin-top: 50px;
+}
+
+.backtotop a {
+	color: black;
+	font-size: 25px;
+
+}
+
+/*section 3 start*/
+.section2 {
+	width: 1000px;
+	height: 830px;
+	background-color: white;
+
+}
+
+.top2 {
+	width: 1000px;
+	height: 320px;
+	background: url(../images/1.jpg) fixed no-repeat center;
+	background-size: cover;
+	background-size: 80%;
+}
+
+/*section 4 start*/
+.section3 {
+	width: 1000px;
+	height: 830px;
+	background-color: white;
+
+}
+
+.top3 {
+	width: 1000px;
+	height: 320px;
+	background: url(../images/2.jpg) fixed no-repeat center;
+	background-size: cover;
+	background-size: 105%;
+}
+
+/*section 5 start*/
+.section5 {
+	width: 1000px;
+	height: 830px;
+	background-color: white;
+
+}
+
+.top4 {
+	width: 1000px;
+	height: 320px;
+	background: url(../images/banner-7.jpg) fixed no-repeat center;
+	background-size: cover;
+	background-size: 80%;
+}
+
+/*section 6 start*/
+.section6 {
+	width: 1000px;
+	height: 830px;
+	background-color: white;
+
+}
+
+.top5 {
+	width: 1000px;
+	height: 320px;
+	background: url(../images/4.jpg) fixed no-repeat center;
+	background-size: cover;
+	background-size: 80%;
+}
+
+.bottom1 {
+	width: 1000px;
+	height: 410px;
+	background-color: white;
+	padding-top: 30px;
+}
+
+.bottom1 p {
+	text-align: center;
+	padding: 10px;
+	/*padding-top: 10px;*/
+	line-height: 0.5;
+	font-family: arial;
+	font-size: 20px;
+}
+
+.bottom1 h4 {
+	text-align: center;
+	margin-top: 70px;
+	font-family: arial;
+	font-size: 20px;
+
+
+}
+
+.bottom1 div {
+	text-align: center;
+	line-height: 2;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.footer {
+	width: 100%;
+	height: 60px;
+	color: white;
+	text-align: center;
+	line-height: 2;
+	font-family: arial;
+	font-size: 38px;
+	background-color: black;
+
+
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+
+}
+
+.pb {
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 13px;
+
+}
